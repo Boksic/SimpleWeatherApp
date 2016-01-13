@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeLayout"
+        android:orientation="vertical">
+        <TableLayout
+            android:id="@+id/ResultsTable"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:text="Code Postal : "
+                    android:layout_column="0"
+                    android:id="@+id/textView1" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_column="1"
+                    android:id="@+id/codePostale"
+                    android:layout_width="197.0dp" />
+                <Button
+                    android:text="Valider"
+                    android:layout_column="2"
+                    android:id="@+id/buttonCodePostale" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/ResultsTable"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:text="Ville : "
+                    android:layout_column="0"
+                    android:id="@+id/textView1" />
+                <AutoCompleteTextView
+                    android:layout_column="1"
+                    android:id="@+id/villeName"
+                    android:layout_width="245.5dp" />
+                <Button
+                    android:text="Valider"
+                    android:layout_column="2"
+                    android:id="@+id/buttonVilleName" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:text="Geolocaliser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonGeo" />
+        <TextView
+            android:text="Météo actuelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ResultsTilte"
+            android:textColor="#FFFF4D" />
+        <TableLayout
+            android:id="@+id/ResultsTable"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="Temp. :"
+                    android:layout_column="0"
+                    android:id="@+id/textView1" />
+                <TextView
+                    android:text="31"
+                    android:layout_column="1"
+                    android:id="@+id/textViewTemp"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="°C"
+                    android:layout_column="2"
+                    android:id="@+id/textView2" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:text="Vent."
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text="60"
+                    android:layout_column="1"
+                    android:id="@+id/textViewWent"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text=" km/h"
+                    android:layout_column="2"
+                    android:id="@+id/textView3" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:text="Humidité :"
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text="10"
+                    android:layout_column="1"
+                    android:id="@+id/textViewhumidite"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text=" %"
+                    android:layout_column="2"
+                    android:id="@+id/textView3" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4">
+                <TextView
+                    android:text="Visibilité :"
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text="10"
+                    android:layout_column="1"
+                    android:id="@+id/textViewVisibilite"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text=" km"
+                    android:layout_column="2"
+                    android:id="@+id/textView3" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow5">
+                <TextView
+                    android:text="Levé Soleil :"
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text=" 6h55"
+                    android:layout_column="1"
+                    android:id="@+id/textViewSunRise"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6">
+                <TextView
+                    android:text="Coucher Soleil :"
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text=" 22h30"
+                    android:layout_column="1"
+                    android:id="@+id/textViewSunset"
+                    android:textColor="#FFFF4D"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:id="@+id/weatherImage" />
+</LinearLayout>

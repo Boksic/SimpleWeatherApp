@@ -1,0 +1,9 @@
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/AppExpert1.dll.mdb
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/AppExpert1.dll
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/obj/Debug/AppExpert1.dll
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/obj/Debug/AppExpert1.dll.mdb
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/Newtonsoft.Json.dll
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/System.Net.Http.dll
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/System.Net.Http.Primitives.dll
+/Users/BOKSIC/Projects/AppExpert1/AppExpert1/bin/Debug/System.Net.Http.Extensions.dll
